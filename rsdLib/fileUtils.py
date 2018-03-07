@@ -8,7 +8,7 @@ import os, sys
 # ------------------ commnad line helpers -----------------
 def pwd():
     """show the current directory name"""
-    print(path.abspath(path.curdir))
+    print(os.path.abspath(os.path.curdir))
 
 def m_path():
     """show the search path used by python to import modules"""
