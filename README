@@ -1,0 +1,13 @@
+An assortment of file utilities as command line helpers and for use in scripts
+                                                                  rgr07mar18
+
+Installation
+
+From git use clone, or download and unzip the folder
+from within the folder, exectute:
+
+python setup.py install [--user]
+
+The user option installs into the local user packages folder, or a virtual 
+environment if it is activated.  Otherwise it is installed into a system wide 
+packages folder and may need sudo privledges.  
