@@ -8,9 +8,9 @@ from within the folder, exectute:
 
 python setup.py install [--user] [--record=user_install.txt]
 
-The user option installs into the local user packages folder, or a virtual 
+The --user option installs into the local user packages folder, or a virtual 
 environment if it is activated.  Otherwise it is installed into a system wide 
-packages folder and may need sudo privileges.  
+packages folder and as a result may need sudo privileges.  
 
-The record option keeps information on what what was installed where both for
+The --record option keeps information on what was installed where, both for
 information and for uninstall using cat user_install.txt | xargs rm -rf
