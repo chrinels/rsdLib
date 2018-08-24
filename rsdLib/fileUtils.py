@@ -1,6 +1,19 @@
-""" individualised library module
-    commonly required functions import via rgrLib
+""" 
+    Individualised library module
+    commonly required functions import via rsdLib
                                                  rgr26mar17
+ * Copyright (C) 2018 Radio System Design Ltd.
+ * Author: Richard G. Ranson, richard@radiosystemdesign.com
+ *
+ * This library is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public
+ * License as published by the Free Software Foundation under
+ * version 2.1 of the License.
+ *
+ * This library is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * Lesser General Public License for more details.
 """
 from __future__ import print_function
 import os, sys
